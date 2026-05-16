@@ -1,0 +1,221 @@
+body{background-color: black;
+overflow-x: hidden;
+
+}
+
+
+
+.d1{
+    opacity: 0.2;
+}
+ .d2{
+    color: red;
+    position: absolute;
+    top: 30px;
+    left: 155px;
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 2px;
+    
+}
+.d3{
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    outline-color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    border: 2px solid white;
+  
+}
+.d4{
+height: 32px;
+width: 82px;
+position: absolute;
+top: 35px;
+left: 1240px;
+}
+.d9{
+color: white;
+background-color: rgb(235, 26, 26);
+font-weight: 600;
+border-radius: 8px;
+outline-color: black;
+border: 1px solid black;
+transition: all 0.5s;
+}
+
+.d9:hover{
+    background-color: rgb(176, 8, 8);
+}
+
+.d5{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: -550px;
+    font-family: "roboto";
+
+}
+.d6{
+    color: white;
+    font-family: "roboto";
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: -530px;
+
+}
+#d7{
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    outline-color: gray;
+    border-radius: 3px;
+    height: 57px;
+    width:410px;
+    border-radius: 3px;
+    background-color: rgba(7, 7, 7, 0.719);
+}
+#d7::placeholder{
+    color: gray;
+    font-family: "roboto";
+    font-size: 18px;
+    padding-left: 20px;
+}
+.d8{
+    text-align: center;
+    position: relative;
+    top: -510px;
+}
+.d10{
+height: 60px;
+width: 210px;
+border-radius: 5px;
+font-size: 27px;
+font-family: "roboto";
+font-weight: 800;
+position: relative;
+top: 5px;
+}
+
+.tn{
+    color: white;
+    font-weight: 700;
+    font-family: "roboto";
+    font-size: 23px;
+    position: relative;
+    left: 155px;
+}
+
+
+
+
+
+
+
+.box{
+display: flex;
+place-content: center;
+}
+
+.box1,.box2,.box3,.box4,.box5{
+    height: 220px;
+    width: 180px;
+    margin: 30px;
+}
+.box1{
+    background: url('https://preview.redd.it/thoughts-on-this-ugly-death-note-poster-v0-l2icux1p4jsc1.jpeg?auto=webp&s=5d4f917def79890e3f1d705ad74f16b2bffe524e') center center/cover;
+}
+.box2{
+background: url('https://m.media-amazon.com/images/I/71S5VJd2riL.jpg') center center/cover;
+}
+.box3{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIM0-w43ChyvBSM5cXykYx5NV-Yl0WEX6Aqw&s') center center/cover;
+}
+.box4{
+    background: url('https://graphicdesignjunction.com/wp-content/uploads/2024/08/movie-poster-48.jpg') center center/cover;
+}
+.box5{
+    background: url('https://admin.itsnicethat.com/images/3CzWUmmXvOtHmdH0J1VNY-f9riA=/254910/format-webp%7Cwidth-1440/4._Oppenheimer.jpg') center center/cover;
+}
+.an{
+    transition: all 0.6s;
+}
+.an:hover{
+transform: scale(1.1);
+}
+
+
+
+
+.mbox{
+    display:flex;
+    place-content: center;
+    flex-wrap: wrap;
+}
+.mboxx{
+    height: 280px;
+    width: 290px;
+    margin: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right,rgb(28, 1, 38),rgb(0, 0, 15));
+    padding: 20px;
+    padding-top: 30px;
+    padding-right: 0px;
+    position: relative;
+}
+.imgstyle{
+    position: absolute;
+    right: 20px;
+bottom: 20px;
+}
+
+
+.t1{
+   color: white;
+    font-weight: 700;
+    font-family: "roboto";
+    font-size: 23px; 
+}
+.t2{
+    color: white;
+    font-weight: 200;
+    font-family: "roboto";
+    font-size: 17px;
+}
+.faq{
+    position: relative;
+    left: 152px;
+}
+
+.faqt{
+    color: white;
+    font-weight: 700;
+    font-family: "roboto";
+    font-size: 20px;
+    background-color: rgb(35, 38, 41);
+    height: 65px;
+    width: 80%;
+    margin-bottom: 10px;
+    transition: all 0.6s;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.faqt:hover{
+    background-color: rgba(64, 64, 68, 0.886);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
